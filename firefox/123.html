@@ -1,0 +1,553 @@
+<!doctype html>
+<html>
+   <head>
+      <meta charset="utf-8"><meta>
+      <title> 欢迎使用火狐浏览器 —— firefox.com.cn </title>
+      <style>
+      #page-header{
+         width:1349px;
+         height:220px;
+         margin-top:-10px;
+         background-color:#0096DD;
+         background-image:none;
+         background-repeat:none;
+         background-attachment:scroll;
+         background-position: 0% 0%;
+         background-clip:border-box;
+         background-origin:padding-box;
+         background-size:auto auto;
+         box-shadow: 0px 12px 38px 0px rgba(0, 0, 0, 0.1) inset, 0px -46px 0px 0px #2F7BBC inset;
+      }
+      body{ 
+         front-size:14px;
+         line-height:1.5;
+         font-family:"open sans",san-serif;
+         color:#333;
+         background-color:#FFF;
+         background-image:none;
+         background-repeat:repeat;
+         background-attachment:scroll;
+         background-position:0% 0%;
+         background-clip:border-box;
+         background-origin:padding-box;
+         background-size:auto auto;
+      }
+      #page-header-logo{
+      	box-sizing:border-box;
+      	float: left;
+      	width:136px;
+      	height:142px;
+      	padding-left: 136px;
+      	margin:0px 20px 0px 0px;
+      	overflow: hidden;
+      	background-color: transparent;
+        background-image: url("index.png");
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        background-position: left top;
+        background-clip: border-box;
+        background-origin: padding-box;
+        background-size: auto auto;
+      }
+      img{
+      	max-width:100%;
+      }
+      #string{
+      	dispaly:none;
+      }
+      .js #tips-wrapper {
+    min-height: 500px;
+}     
+      #tips-wrapper {
+    padding-top: 50px;
+}
+      #outer-wrapper{
+      	background-color: #FFF;
+        background-image: none;
+        background-repeat: repeat;
+        background-attachment: scroll;
+        background-position: 0% 0%;
+        background-clip: border-box;
+        background-origin: padding-box;
+        background-size: auto auto;
+      }
+      #wrapper{
+      	padding-bottom:40px;
+      	width: 100%px;
+      	margin:0px auto;
+      	position: relative;
+      }
+      #masthead{
+      	display: block;
+        margin: 0px auto;
+        padding-left: 48px;
+        padding-right: 48px;
+        position: relative;
+     }
+     .container {
+         position: relative;
+         width: 940px;
+         margin: 0px auto;
+        }
+     #heading-logo-wrapper {
+         padding-top:24px;
+        }
+     #tabzilla {
+        float: right;
+        display: block;
+        background-color: transparent;
+       background-image: url('tab.png');
+       background-repeat: repeat;
+       background-attachment: scroll;
+       background-position: 0% 0%;
+       background-clip: border-box;
+       background-origin: padding-box;
+       background-size: auto auto;
+        height: 44px;
+        width: 150px;
+        position: relative;
+        text-indent: -2000px;
+        overflow: hidden;
+        z-index: 999;
+         }
+         a {
+      color: #0096DD;
+      text-decoration: none;
+  }
+       #main-content{
+       	padding:0px;
+       }
+       #page-header h1 {
+        font-size: 54px;
+        margin-top: 0px;
+        margin-right-value: 0px;
+        margin-bottom: 14px;
+        margin-left-value: 0px;
+        padding-top: 24px;
+}
+        #page-header h2 {
+          font-size: 24px;
+          padding: 0px;
+          margin: 0px 0px 30px;
+        }     
+    #page-header h1, #page-header h2 {
+        position: relative;
+        color: #FFF;
+        text-shadow: 0px 1px 0px rgba(72, 72, 72, 0.3);
+        z-index: 2;
+}
+    #tips-nav-direct {
+       width: 940px;
+       height: 40px;
+       margin: 0px;
+       overflow: hidden;
+}  
+     p, ul, ol, dl, hgroup {
+    margin: 0px 0px 20px;
+}
+     #tips-nav-direct li:first-child {
+    margin-left: 0px;
+}
+    #tips-nav-direct li {
+         float: left;
+         width: 180px;
+         height: 40px;
+         margin-left: -20px;
+         display: table;
+} 
+    li {
+    margin-left: 20px;
+}
+  
+    #tips-nav-direct li a.selected {
+    background-position: left -42px;
+    color: #484848;
+}
+    #tips-nav-direct li a {
+    height: 40px;
+    width: 120px;
+    background: url('abs.png') no-repeat scroll left -84px transparent;
+    text-align: center;
+    color: #FFF;
+    font-size: 14px;
+    text-transform: uppercase;
+    line-height: 1.2;
+    padding: 0px 30px;
+    display: table-cell;
+    vertical-align: middle;
+} 
+    #tips-nav-direct li a:hover {
+    background-position: left top;
+    text-decoration: none;
+}
+    a {
+      width:76px;
+      height:23px;
+    color: #0096DD;
+    text-decoration: none;
+}
+     .js #page-content {
+    visibility: hidden;
+}
+     #page-content {
+      
+      height:550px;
+    background: none repeat scroll 0% 0% #F8F8F8;
+    padding: 0px 0px 48px;
+}
+     #tips-nav-prev-next {
+    display: block;
+    position: absolute;
+    right: 48px;
+    top: 95px;
+    z-index: 2;
+    width: 300px;
+    display: none;
+
+
+}
+     .js #tips-nav-prev-next button {
+    transition: color 0.2s ease 0s;
+}
+      .js #tip-prev {
+    float: left;
+}
+      .link-button {
+    border: 0px none;
+    background: none repeat scroll 0% 0% transparent;
+    color: #0096DD;
+    font-size: 14px;
+    padding: 0px;
+    margin: 0px;
+    line-height: 1.5;
+    font-family: "Open Sans",sans-serif;
+    cursor: pointer;
+}  
+     .js #tips-nav-dots {
+    display: none;
+}
+     .link-button 2 {
+      float:right;
+     }
+      .js #tips-nav-prev-next button:disabled {
+    color: #CCC;
+    cursor: default;
+}
+      .js #tips-nav-prev-next button:disabled:hover {
+    text-decoration: none;
+}
+     .js #tips-nav-prev-next button {
+    transition: color 0.2s ease 0s;
+}
+     .js #tip-prev {
+    float: left;
+}
+    .js #tip-next {
+    float: right;
+    text-align: right;
+}
+     .link-button {
+    border: 0px none;
+    background: none repeat scroll 0% 0% transparent;
+    color: #0096DD;
+    font-size: 14px;
+    padding: 0px;
+    margin: 0px;
+    line-height: 1.5;
+    font-family: "Open Sans",sans-serif;
+    cursor: pointer;
+}
+    .js #tips-wrapper {
+    min-height: 500px;
+}
+    #tips-wrapper {
+    padding-top: 50px;
+}
+    .tip-media {
+    position: relative;
+    left: -10px;
+    width: 600px;
+    height: 500px;
+    z-index: 1;
+    float: left;
+    background-image: url(animation-bookmarks.gif);
+}
+     .tip-copy {
+    float: right;
+    width: 260px;
+    margin-left: 40px;
+    padding: 30px 20px 0px;
+    text-align: center;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #666;
+    font-family: "Open Sans Light",sans-serif;
+    font-weight: normal;
+    float:left;
+}
+  
+    .ordinal {
+    display: block;
+    width: 46px;
+    height: 46px;
+    margin: 0px auto 30px;
+    background: none repeat scroll 0% 0% #FF7200;
+    color: #FFF;
+    font-family: "Open Sans Light",sans-serif;
+    font-weight: normal;
+    font-size: 34px;
+    line-height: 46px;
+    border-radius: 50%;
+    text-align: center;
+    
+}
+     h1, h2, h3, h4, h5, h6, legend, .huge, .large {
+    font-family: "Open Sans Light",sans-serif;
+    font-weight: normal;
+    display: block;
+    margin: 0px 0px 12px;
+    line-height: 100%;
+    text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.75);
+    color: #484848;
+}
+
+     .tip-copy h3 {
+      font-size: 30px;
+      width:260px;
+      height:30px;
+      text-align:center;
+}
+     
+     .tip-copy hr {
+    width: 140px;
+    margin: 0px auto 20px;
+}
+      .tip-copy h4 {
+    font-size: 20px;
+
+}
+    
+     .tip-media img {
+    position: relative;
+    right: 500px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+} 
+
+     img {
+    max-width: 100%;
+}
+     #page-footer {
+    background: none repeat scroll 0% 0% #FFF;
+}
+     #footer {
+    padding-top: 40px;
+    float:left;
+}
+   
+     #footer-share {
+    float: left;
+    width: 450px;
+    margin-right: 20px;
+}
+    h3 {
+    font-size: 28px;
+}
+    #colophon {
+    float:left;
+    background: #DCDCDC;
+    padding: 40px 0px;
+    font-size: 0.875em;
+    line-height: 1.285;
+    width: 100%;
+    height:195;
+    margin: 1em 0px 0px;
+   
+}
+    #colophon .row {
+    width: 924px;
+    margin: 0px auto;
+}
+    #colophon a, #colophon a:link, #colophon a:visited {
+    color: #0096DD;
+}
+    
+    #colophon .footer-logo {
+    float: left;
+    width: 220px;
+    margin: 0px 10px;
+}
+    a img {
+    border: 0px none;
+    max-width: 100%;
+}
+    #colophon .footer-license {
+    float: left;
+    width: 220px;
+    margin: 0px 10px;
+}  
+    #colophon p {
+    margin-bottom: 10px;
+}
+    a:visited {
+    color: #0096DD;
+    text-decoration: none;
+}
+    #colophon .footer-nav {
+    font-family: "Open Sans",sans-serif;
+    float: left;
+    width: 140px;
+    margin: 0px 10px;
+}
+    #colophon .footer-nav li {
+    list-style-type: none;
+    margin: 0px 0px 2px;
+}
+
+    #colophon p {
+    margin-bottom: 10px;
+} 
+</style>    
+     </head>
+
+   <body id="firefox-desktop-tips" class="html-ltr firefox-desktop-tips">
+       <div id="string"></div>
+       <div id="outer-wrapper">
+          <div id="wrapper">
+             <header id="masthead">
+             	<div class="container">
+                  <a target="_blank" href="http://www.mozilla.org/en-US/firefox/fx" id="tabzilla">
+                    Mozilla
+                  </a>
+                </div>
+             </header>
+             <main id="main-container" role="main">
+             	<div id="page-header">
+             	<div class="container">
+                <div id="heading-logo-wrapper">
+                  <img id="page-header-logo" alt="	firefox" src='C:\Users\Administrator\Desktop\firefox.index.png'>
+                  <h1>
+                  	 欢迎使用火狐浏览器
+                  </h1>
+                  <h2>
+                  	 关于火狐，你不可不知的5项使用技巧
+                  </h2>
+               </div>
+             <div id="share-nav-wrapper" class="share-wrapper">
+             	<div id="tips-nav-direct">
+             		<ol>
+                       <li>
+                         <a class="selected" href="#bookmarks"><span>1.</span>添加书签</a>
+        
+                       </li>
+                       <li>
+                         <a  href="#simplify"><span>2.</span>简洁高效</a>
+                       </li>
+                       <li>
+                       	  <a href="#arrange"><span>3.</span> 定制界面</a>
+                       	</li>
+                       	<li>
+                       	  <a href="#sync"><span>4.</span> 全新同步</a>
+                        </li>
+                        <li>
+                           <a href="#addons"><span>5.</span> 扩展插件</a>
+                        </li>
+                    </ol>
+               </nav>
+            </div>
+          </div>
+        </div>
+     <div id="page-content" style="visibility:visible;">
+     	<div id="mozilla-pager-1" class="container pager-no-history">
+     		
+              
+     		<div id="tips-wrapper" class="page-selected-addons-tips" style="-moz-user-select:none; opacity:1;">
+     			<div id="page-bookmarks-tip" class="tip pager-page default-page" style="display:block">
+            
+            <div class="tip-media">
+            </div>
+     				<div class="tip-copy">
+                  
+                   <!--div id="tips-nav-dots">
+          <span class="" data-tip="bookmarks">1</span>
+          <span class="" data-tip="simplify">2</span>
+          <span class="" data-tip="arrange">3</span>
+          <span class="" data-tip="sync">4</span>
+          <span class="active" data-tip="addons">5</span>
+                    </div-->
+        
+        <button class="link-button" id="tip-prev">上一条</button>
+                <div class="ordinal">
+                  1</div>
+                  <button 2 disabled="" class="link-button" type="button" id="tip-next" float:right;>下一条</button>
+                <h3>
+                  
+     				     	点击五星图标
+     				     </h3>
+     				     <p>
+               点击图标后会看到一个精巧的动画效果，更直观的了解已成功添加书签。<br/>
+              (很有趣，亲自试试吧~)
+                 </p>
+              <div class="tip-copy-how">
+                   <hr></hr>
+                    <h4>如何操作：</h4>
+                <p>
+                点击五角星图标即可将当前页收藏到书签，紧邻的另一个图标则让您可以查看、管理所有已添加的书签。
+                <a href="https://support.mozilla.org/kb/use-bookmarks-to-save-and-organize-websites"><br/>了解更多</a>
+                </p>
+     				  </div>
+            </div>
+      <div id="page-footer">
+        <footer id="footer" class="container hide download">
+          <div id="foor-share">
+            <h3>恭喜</h3>
+            <p>看过以上的操作技巧，您心在已经是使用火狐的专家了。</p>
+            <div class="share-wrapper">
+              <p>
+                想要了解更多、更及时的火狐动态，欢迎
+                <a href="http://mozilla.com.cn/foxletter/subscribe/">订阅火狐快讯</a>
+                。
+              </p>
+            </div>
+
+          </div>
+        </footer>
+      </div>
+          
+        </main>
+     	</div>
+    <footer id="colophon">
+      <div class="row">
+        <div class="footer-logo">
+          <a href="/"><img src="footer-mozilla.png" alt="mozilla"></a>
+        </div>
+        <div class="footer-license">
+              <p>
+                Copyright © 2011–2014 Mozilla Online.<br>
+                北京谋智网络技术有限公司 版权所有.
+              </p>
+              <p>
+                <a target="_blank" href="http://www.miibeian.gov.cn/" rel="nofollow">京ICP备11011334号-7</a><br>
+                京公网安备11010502026378号<br>
+                <a href="/media/announcement.html" target="_blank">重要声明</a>
+              </p>
+          </div>    
+          
+          <ul class="footer-nav">
+            <li><a href="/about/contact/">联系方式</a></li>
+            <li><a href="/about/career/">职业机会</a></li>
+            <li><a href="/about/whatismozilla/">关于 Mozilla</a></li>
+            <li><a target="_blank" href="https://www.mozilla.org/en-US/about/legal.html">法律声明</a>  </li>
+            </ul>
+          <ul class="footer-nav">
+            <li><a target="_blank" href="http://mozilla.com.cn">火狐社区</a></li>
+            <li><a target="_blank" href="http://e.weibo.com/firefox">火狐@新浪微博</a></li>
+            <li><a target="_blank" href="http://page.renren.com/600009300">火狐@人人网</a></li>
+          </ul>
+        </div>
+       </footer>
+    </div>
+   </body>
+</html>
+
